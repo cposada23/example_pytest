@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo "Hello!! ${name}"
         echo "Branch ${branch}"
+        echo "Branch Main"
       }
     }
   }
